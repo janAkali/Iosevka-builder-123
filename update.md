@@ -1,0 +1,80 @@
+### Build Log
+- Build Time: 2026-05-20 03:51:01 UTC
+- Source Commit: 251f23efb9a3007a038739624fd1b83cace0a843
+- Build Target: ttf-unhinted
+
+### private-build-plans.toml
+```toml
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "term"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+noLigation = true
+
+[buildPlans.IosevkaCustom.variants.design]
+one = "base"
+two = "curly-neck-serifed"
+three = "flat-top-serifless"
+four = "semi-open-non-crossing-serifless"
+five = "upright-flat-hook-serifless"
+six = "straight-bar"
+eight = "crossing"
+zero = "tall-slashed"
+capital-i = "serifed"
+capital-j = "serifed"
+capital-m = "hanging-serifless"
+capital-q = "crossing"
+capital-w = "straight-vertical-sides-serifless"
+capital-z = "straight-serifless"
+e = "flat-crossbar"
+g = "single-storey-top-cut"
+i = "serifed"
+j = "narrow-serifed"
+k = "symmetric-connected-serifless"
+m = "earless-rounded-double-arch-short-leg-serifless"
+q = "straight-serifless"
+t = "bent-hook-short-neck"
+u = "toothless-rounded-serifless"
+y = "cursive-serifless"
+cyrl-ef = "split-serifless"
+punctuation-dot = "square"
+braille-dot = "square"
+ellipsis-density = "normal"
+tilde = "low"
+asterisk = "hex-low"
+number-sign = "upright-tall"
+at = "fourfold"
+dollar = "open"
+percent = "rings-continuous-slash"
+bar = "force-upright"
+question = "smooth"
+
+[buildPlans.IosevkaCustom.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.IosevkaCustom.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaCustom.widths.Condensed]
+shape = 416
+menu = 3
+css = "condensed"
+
+[buildPlans.IosevkaCustom.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaCustom.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
+```
